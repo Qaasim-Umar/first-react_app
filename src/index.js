@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function counter() {
+function Counter() {
   const [counter, setCounter] = useState(0);
   function increment() {
     useState(counter + 1);
   }
   return (
     <div class="stylish">
-      <p>{counter}</p>
+      <p>{Counter}</p>
       <button onClick={increment}>increment</button>
     </div>
   );
