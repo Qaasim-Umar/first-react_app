@@ -8,7 +8,7 @@ function Counter() {
     setCounter(counter + 1);
   }
   return (
-    <div class="stylish">
+    <div id="stylish">
       <p>{counter}</p>
       <button onClick={increment}>increment</button>
     </div>
