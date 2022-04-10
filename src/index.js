@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./style.css"
 
 function Counter() {
   const [counter, setCounter] = useState(0);
