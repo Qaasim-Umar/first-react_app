@@ -5,11 +5,11 @@ import ReactDOM from 'react-dom';
 function Counter() {
   const [counter, setCounter] = useState(0);
   function increment() {
-    useState(counter + 1);
+    setCounter(counter + 1);
   }
   return (
     <div class="stylish">
-      <p>{Counter}</p>
+      <p>{counter}</p>
       <button onClick={increment}>increment</button>
     </div>
   );
