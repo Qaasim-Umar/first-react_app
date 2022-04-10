@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -14,6 +15,6 @@ function Counter() {
   );
 }
 
-const show = <counter />;
+const show = <Counter />;
 
 ReactDOM.render(show, document.getElementById('root'));
